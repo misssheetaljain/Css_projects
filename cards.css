@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    
+    width:400px;
+    height:400px;
+    margin:100px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: url("https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466__480.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.cards{
+   display:flex;
+   
+   justify-content: center;
+   align-items: center;  
+}
+h1{
+    top:50%;
+    right: 50%;
+    color: rgb(230, 244, 244);
+}
